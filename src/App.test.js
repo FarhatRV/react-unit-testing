@@ -25,7 +25,6 @@ describe("App component", () => {
   });
 
   test("it renders", async () => {
-    // axios.get.mockResolvedValue({ data: fakeUsers });
     await act(async () => {
       render(<App />);
     });
@@ -34,7 +33,6 @@ describe("App component", () => {
   });
 
   test("it displays a list of users", async () => {
-    // axios.get.mockResolvedValue({ data: fakeUsers });
     await act(async () => {
       render(<App />);
     });
@@ -44,7 +42,6 @@ describe("App component", () => {
   });
 
   test("it displays a row for each user", async () => {
-    // axios.get.mockResolvedValue({ data: fakeUsers });
     await act(async () => {
       render(<App />);
     });
